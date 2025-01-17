@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="WhatsApp Image 2025-01-16 at 14.14.45_73440358.jpg" alt="1" />
+          <h1>API</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="WhatsApp Image 2025-01-16 at 14.14.45_73440358.jpg" alt="2" />
+          <h1> ME</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="IMG-20250117-WA0006.jpg" alt="3" />
+          <h1>BHAIYA</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="IMG-20250117-WA0009.jpg" alt="4" />
+          <h1>FAMILY</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="IMG-20250117-WA0007.jpg" alt="5" />
+          <h1>SONU BHAIYA</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="IMG-20250117-WA0008.jpg" alt="6" />
+          <h1>DI & JIJAJi</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="IMG-20250117-WA0010.jpg" alt="7" />
+          <h1>ANKIT BHAIYA</h1>
+          <div class="details">
+            <h2></h2>
+            
+          </div>
+        </div>
+      
+      
+      </div>
+
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
